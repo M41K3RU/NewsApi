@@ -1,0 +1,10 @@
+main {
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+select {
+  display: inline-block;
+  text-align: center;
+}

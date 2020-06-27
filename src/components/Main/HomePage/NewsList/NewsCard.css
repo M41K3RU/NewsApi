@@ -1,0 +1,29 @@
+.NewsCard {
+  flex-basis: 30%;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  border: 1px solid grey;
+}
+.NewsCard img {
+  width: 100%;
+}
+
+.NewsCard-content {
+  padding: 0 12px 12px 12px;
+  text-align: justify;
+}
+
+.NewsCard-content > p:first-of-type {
+  padding: 0;
+  font-size: 12px;
+}
+
+.NewsCard-footer {
+  font-size: 10px;
+  text-align: right;
+}
+
+.NewsCard-footer > p {
+  font-style: 10px;
+  margin-bottom: 0;
+}

@@ -1,0 +1,19 @@
+.creepy {
+  text-align: center;
+}
+
+label {
+  padding: 0px 10px;
+  width: 7rem;
+  display: inline-block;
+}
+
+input {
+  padding: 6px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 7rem;
+}
+.sortby {
+  padding-top: 10px;
+}

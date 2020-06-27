@@ -1,0 +1,25 @@
+#HomePage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.ui.card:first-child {
+  margin-top: 1em !important;
+}
+.ui.card:last-child {
+  margin-bottom: 1em !important;
+}
+
+/* select {
+  display: block;
+  text-align: center;
+} */
+
+#NewsFiltersBar {
+  text-align: center;
+}
+
+#pagination {
+  text-align: center;
+}
