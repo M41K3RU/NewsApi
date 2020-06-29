@@ -21,22 +21,6 @@ const NewsCard = (props) => (
       </a>
     </Card.Content>
   </Card>
-
-  // {/* <div className="NewsCard">
-  //   <img src={props.urlToImage} alt="" />
-
-  //   <div className="NewsCard-content">
-  //     <h2>{props.title}</h2>
-  //     <p>{props.publishedAt}</p>
-  //     <p dangerouslySetInnerHTML={{ __html: props.description }}></p>
-  //     <div className="NewsCard-footer">
-  //       <p>Źródło: {props.source}</p>
-  //       <a href={props.url} target="blank">
-  //         Zobacz artykuł
-  //       </a>
-  //     </div>
-  //   </div>
-  // </div> */}
 );
 
 export default NewsCard;

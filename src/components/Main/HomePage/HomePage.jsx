@@ -16,7 +16,6 @@ class HomePage extends React.Component {
       category: null,
       lang: "pl",
       page: 1,
-      key: "",
     };
   }
 
@@ -75,7 +74,7 @@ class HomePage extends React.Component {
         <div id="HomePage">
           {results.articles.map((item) => (
             <NewsCard
-              key={item.key}
+              key={Math.random()}
               publishedAt={item.publishedAt}
               source={item.source.name}
               urlToImage={item.urlToImage}
